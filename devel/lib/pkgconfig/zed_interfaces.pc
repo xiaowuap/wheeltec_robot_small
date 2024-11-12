@@ -1,0 +1,8 @@
+prefix=/home/wheeltec/wheeltec_robot/devel
+
+Name: zed_interfaces
+Description: Description of zed_interfaces
+Version: 3.1.0
+Cflags: -I/home/wheeltec/wheeltec_robot/devel/include -I/home/wheeltec/wheeltec_robot/src/zed-ros-wrapper-master/zed_interfaces/include
+Libs: -L${prefix}/lib 
+Requires: message_generation std_msgs geometry_msgs sensor_msgs
